@@ -1,0 +1,59 @@
+/* ListSection */
+
+.listWrapper {
+  width: 55%;
+  height: 50%;
+  margin: 10px;
+}
+
+/* ToDO */
+
+.todoWrapper {
+  width: 100%;
+  margin: 1px 0px 7px 0px;
+  background-color: var(--bgWhite);
+  border: 1px solid var(--bgBlack);
+  border-radius: 10px;
+}
+
+.todoText {
+  margin-left: 7px;
+}
+
+.todoBtns {
+  margin: 0px 0px 7px 7px;
+  width: 100px;
+  height: 31px;
+  border-radius: 4px;
+
+  background-color: var(--bgBlack);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 0.5s;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.trashIcon {
+  background-color: var(--bgWhite);
+  height: 20px;
+  width: 18px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.trashIcon::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: red;
+}
+
+/* .todoWrapper {
+  margin-left: 8px;
+  padding: 0px 0px 8px 0px;
+} */

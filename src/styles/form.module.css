@@ -1,0 +1,21 @@
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 15%;
+
+  background-color: var(--bgWhite);
+  border: solid 1.5px var(--bgBlack);
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputWrapper {
+  display: inline;
+}
+
+.formSelect {
+  display: inline;
+  margin-left: 5px;
+}
