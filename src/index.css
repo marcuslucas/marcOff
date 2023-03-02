@@ -7,6 +7,9 @@
   --bgBlack: #1f1717;
   --txtWhite: #f9f4f4;
   --txtBlack: #1f1f29;
+  --lightBlue: #4fc3f7;
+  --lightYellow: #ffeb3b;
+  --lightGray: #9e9e9e;
 }
 body {
   margin: 0;

@@ -12,10 +12,9 @@
 }
 
 .inputWrapper {
-  display: inline;
+  display: inline-flex;
 }
 
 .formSelect {
-  display: inline;
-  margin-left: 5px;
+  display: inline-flex;
 }

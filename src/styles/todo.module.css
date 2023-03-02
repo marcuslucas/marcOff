@@ -36,6 +36,7 @@
 
   height: 45%;
   width: 65%;
+  max-width: 900px;
 
   display: flex;
   flex-direction: column;

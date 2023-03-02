@@ -3,10 +3,11 @@ import styles from "../styles/list.module.css";
 import ToDo from "./ToDo";
 
 const List = (props) => {
+  console.log(props.todos);
   return (
     <div className={styles.listWrapper}>
       {props.todos &&
-        props.todos.map((todo) => (
+        props.filteredTodos.map((todo) => (
           <ToDo
             setTodos={props.setTodos}
             todos={props.todos}

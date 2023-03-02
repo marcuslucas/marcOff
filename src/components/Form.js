@@ -17,6 +17,11 @@ const Form = (props) => {
     props.setInput(e.target.value);
   };
 
+  const statusHandler = (event) => {
+    console.log(event.target.value);
+    props.setStatus(event.target.value);
+  };
+
   return (
     <div className={styles.formWrapper}>
       <form>
@@ -32,7 +37,11 @@ const Form = (props) => {
           </button>
         </div>
         <div className={styles.formSelect}>
-          <select name="todos" className={styles.formFilter}>
+          <select
+            onChange={statusHandler}
+            name="todos"
+            className={styles.formFilter}
+          >
             <option value="all">All</option>
             <option value="completed">Completed</option>
             <option value="uncompleted">Uncompleted</option>
